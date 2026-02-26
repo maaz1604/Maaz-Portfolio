@@ -29,6 +29,16 @@ const reviewsData = [
     company_link: "https://www.linkedin.com/company/indokoreanexpress/",
     certificate_link: "https://drive.google.com/file/d/1WTbf70rQdpNqC12xq2G8Y5c0bQR5xzsH/view",
   },
+   {
+    avatar: "/reviews/amazon.jpeg", 
+    name: "Amazon MLSS 2025",
+    job: "MLSS Cohort Participant",
+    review:
+      "Selected from 100,000+ students, Maaz successfully completed Amazon’s Machine Learning Summer School, demonstrating strong analytical thinking and a deep interest in advanced ML concepts.",
+    company_link: "https://amazonmlsummerschool.com",
+    certificate_link:
+      "https://drive.google.com/file/d/1eqmpHaJJAx-gPhGIMUH-qZsW9xDF77uT/view?usp=sharing",
+  },
 ];
 
 

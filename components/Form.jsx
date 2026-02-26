@@ -6,7 +6,6 @@ import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { User, MailIcon, ArrowRightIcon, MessageSquare } from "lucide-react";
 import { submitContactForm } from "@/app/actions";
-import Turnstile from "react-turnstile";
 
 const Form = () => {
   const [state, action, pending] = useActionState(submitContactForm, null);
@@ -55,16 +54,6 @@ const Form = () => {
             <MessageSquare size={20} className="absolute right-6 top-4" />
           </div>
 
-          <Turnstile
-          sitekey={process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY}
-          responseField={true}
-          responseFieldName="cf-turnstile-response"
-          fixedSize={true}
-          refreshExpired="auto"
-          theme="auto"
-          />
-
-          
           {!pending && (
             <Button
               type="submit"

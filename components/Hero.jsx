@@ -25,7 +25,7 @@ const Hero = () => {
             <div className="mb-4 cursor-grab text-sm font-semibold uppercase tracking-[4px] text-primary">
               <Roles />
             </div>
-            <h1 className="h1">Hello, I'm Maaz Amir</h1>
+            <h1 className="h1">Hello, I'm Maaz</h1>
             <p className="subtitle mx-auto max-w-[490px] xl:mx-0">
              Pleasure meeting you
             </p>
